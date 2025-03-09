@@ -31,9 +31,10 @@ countB++;
 <p><%=Math.random() %></p>
 
 <p>お名前を入力してください</p>
-<form method="post" action="greeting-out.jp">
-<imput type="text" name="user">
-<imput type="submit" value="確定">
+<form method="post" action="greeting-out.jsp">
+<input type="text" name="user">
+<input type="submit" value="確定">
+
 </form>
 </body>
 </html>
